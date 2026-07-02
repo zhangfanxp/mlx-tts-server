@@ -54,6 +54,11 @@ mlx-tts-server/
 ```bash
 pip install -r requirements.txt
 ```
+## 模型下载
+先停止科学上网！然后：
+export HF_ENDPOINT=https://hf-mirror.com
+hf download mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit
+hf download mlx-community/whisper-large-v3-turbo-asr-fp16
 
 ---
 
